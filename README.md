@@ -1,6 +1,8 @@
 Odin2-Euler-Problems-1-2-3
 ==========================
 
+Tech: using only JS HTML CS
+
 Assignment from Odin Project
 http://www.theodinproject.com/web-development-101/javascript-basics
 
