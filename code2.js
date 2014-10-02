@@ -24,4 +24,6 @@ var problem2 = function () {
 	console.log("fibo1" + toteven1);
 	console.log("fibo2" + toteven2);
 	console.log("fiboeven" + totevengen);
+
+	document.getElementById('final_result').innerHTML = totevengen;
 }

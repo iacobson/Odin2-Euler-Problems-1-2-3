@@ -25,5 +25,7 @@ var problem3 = function () {
 		}
 	}
 	console.log ("biggest prime : " + primenumber);
+
+	document.getElementById('final_result').innerHTML = primenumber;
 }
 

@@ -5,7 +5,7 @@ var total2 = 0;
 
 var limit1 = document.getElementById('limithtml1');
 
-for (var num1=0; num1<limit1.value; num1=num1+3){
+for (var num1=0; num1<limit1.value; num1=num1+3){  // IMPORTANT !!! add ".value" otherwise to generate number. Otherwise will be zero
 		if (num1%5 !==0) {
 			total1=total1+num1;
 		}
@@ -24,4 +24,8 @@ console.log(total1)
 console.log(total2)
 console.log("total"+totalgen);
 
+document.getElementById('final_result').innerHTML = totalgen;
 }
+
+
+

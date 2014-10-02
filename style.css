@@ -3,10 +3,12 @@ body {
 	margin: 0px; 
 	padding: 0px;
 	font-family: arial;
+	min-width: 1300px;
 }
 
 #github {
 
+	position: relative;
 	background-color: #4A4B4C;
 	height: 20px;
 	width: 100%;
@@ -89,7 +91,7 @@ body {
 	margin: 3% 4% 3% 4%;
 	display: block;
 	position: relative;
-	min-width: 1200px;  /*content will not move on next line on window resizing*/
+	min-width: 1300px;  /*content will not move on next line on window resizing*/
 }
 
 .content div {
@@ -115,7 +117,7 @@ body {
 .content h5 {
 	font-size: 0.9em;
 	line-height: 1.2em;
-	color: #9E3D54  ;
+	color: #9E3D54;
 	text-align: center;
 	border-bottom: 1px solid #ECEBD7;
 }
@@ -123,4 +125,53 @@ body {
 .content p {
 	font-size: 0.8em;
 	color: #4A4B4C;
+}
+
+.content input {
+	width: 98%;
+	margin: 10px auto 10px auto;
+	height: 40px;
+	font-size: 24px;
+	font-weight: bolder;
+	padding-left: 10px;
+	border: 1px solid #ECEBD7;
+	color: #9E3D54;
+	border-radius: 5px;
+
+}
+
+.content button {
+	width: 100%;
+	margin: 10px auto 10px auto;
+	height: 50px;
+	font-size: 24px;
+	color: #F1F1E4;
+	border-radius: 5px;
+	background-color: #9E3D54;
+	border: 2px solid #ECEBD7;
+}
+
+.content button:hover {
+	border: 3px solid #4A4B4C;
+}
+
+.content button:active {
+	background-color: #84404E;
+}
+
+.content .result {
+	width: 96.5%;
+	margin-top: 20px;
+	height: 80px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+
+}
+
+.content h2 {
+	font-size: 3em;
+	font-weight: bolder;
+	line-height: 0.5em;
+	color: #9E3D54;
+	text-align: center;
 }
